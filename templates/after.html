@@ -1,0 +1,29 @@
+<html>
+
+<body bgcolor=#a3cfb4>
+
+    <center>
+    <h1>  PREDICTION :  </h1>
+    Accuracy:{{accuracy}}
+    {%if data == "Setosa"%}
+    <h1>Iris-setosa</h1>
+    <img src='static\images\setosa.jpg'width="300" height="300">  
+
+    {%elif data=="Versicolor"%}
+    <h1>Iris-versicolor</h1>
+    <img src='static\images\verci.jpg'width="300" height="300">
+    
+    {%else%} 
+    <h1>Iris-verginica</h1>
+    <img src='static\images\vegi.jpg'width="300" height="300">   
+
+    {%endif%}
+
+        <br><br>
+    <a href='/'>-Back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
